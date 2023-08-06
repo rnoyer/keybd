@@ -1,0 +1,92 @@
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  aspect-ratio: auto 16 / 1;
+  background-color: yellow;
+}
+
+.key {
+  flex: 1;
+  background-color: darkgray;
+  min-width: 0px;
+}
+
+.cap {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  height: 90%;
+  background-color: ghostwhite;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 1px;
+  padding: 0 15%;
+}
+
+.captop {
+  background-color: bisque;
+  border: 1px solid gray;
+}
+
+.multichar {
+  display: grid;
+}
+
+p {
+  flex: 1;
+  margin: 0.25rem 0;
+}
+
+.fun,
+.num,
+.til {
+  text-align: left;
+}
+
+.backspace {
+  flex: 2
+}
+
+.tab,
+.bslash {
+  flex: 1.5;
+}
+
+.caps {
+  flex: 1.75;
+}
+
+.shift.left,
+.enter {
+  flex: 2.25;
+}
+
+.shift.right {
+  flex: 1.75;
+}
+
+.ctrl.left,
+.code,
+.alt.left {
+  flex: 1.25;
+}
+
+.space {
+  flex: 6.25;
+}
