@@ -23,7 +23,10 @@
       background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(225, 225, 225, 1) 50%, rgba(220, 220, 220, 1) 50%, rgba(235, 235, 235, 1) 100%);
       border-radius: 0.5vw;
     }
-
+    .key.darken{
+      background: rgb(225, 225, 225);
+      background: linear-gradient(135deg, rgba(225, 225, 225, 1) 0%, rgba(195, 195, 195, 1) 50%, rgba(190, 190, 190, 1) 50%, rgba(205, 205, 205, 1) 100%);
+    }
     .keypressed {
       background: rgb(165, 165, 165);
     }
@@ -39,7 +42,10 @@
       justify-content: center;
       align-items: center;
     }
-
+    .key.darken > .cap {
+    background: rgb(225, 225, 225);
+    background: linear-gradient(315deg, rgba(225, 225, 225, 1) 0%, rgba(180, 180, 180, 1) 100%);
+    }
     .cappressed {
       background: rgb(175, 175, 175);
     }
